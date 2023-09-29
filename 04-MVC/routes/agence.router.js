@@ -7,7 +7,6 @@ const router = express.Router();
 
 router.post('/signup', signup)
 router.post('/sign', sign)
-router.post('/add', oneAgence)
 router.get('/all', allAgences)
 router.get('/findById/:id', oneAgence)
 router.delete('/delete/:id', deleteAgence)
