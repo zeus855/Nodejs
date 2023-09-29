@@ -7,6 +7,7 @@ import cookieParser from 'cookie-parser';
 import playerRoutes from './routes/player.router.js'
 import basketRoutes from './routes/basket.router.js'
 import agenceRoutes from './routes/agence.router.js'
+import voitureRoutes from './routes/voiture.router.js'
 
 const app = express();
 
@@ -27,7 +28,10 @@ app.use(cookieParser());
 // ROUTER
 app.use('/api/player', playerRoutes);
 app.use('/api/basket', basketRoutes);
+
+
 app.use('/api/agence', agenceRoutes);
+app.use('/api/voiture', voitureRoutes);
 
 
 // SERVER
