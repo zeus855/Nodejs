@@ -1,0 +1,8 @@
+https://nodejs.org/fr pour telecharger le fichier nodejs
+
+
+https://www.postman.com/  site a utiliser
+
+pour creer un fichier avec une ligne de commande faire:
+touch (le nom du fichier) et faire entrer
+
